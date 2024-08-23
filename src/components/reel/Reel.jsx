@@ -1,11 +1,11 @@
 import React from "react";
 
-const Reels = () => {
+const Reel = () => {
   return (
     <div>
-      <div>Reels</div>
+      <div>Reel</div>
     </div>
   );
 };
 
-export default Reels;
+export default Reel;
