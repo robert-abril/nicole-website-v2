@@ -1,12 +1,14 @@
 # Copilot Instructions for `nicole-website-v2`
 
 ## Project Overview
+
 - This is a React single-page application (SPA) bootstrapped with Create React App.
 - The main entry point is `src/index.js`, which loads `App.js`.
 - UI is organized into `components` (reusable widgets) and `containers` (page-level sections).
 - Static assets (images, icons) are in `public/` and `src/assets/`.
 
 ## Key Architectural Patterns
+
 - **Component Structure:**
   - `src/components/` contains UI elements (e.g., `navbar`, `reel`).
   - `src/containers/` contains larger sections (e.g., `header`, `aboutme`, `footer`, `reels`).
@@ -19,6 +21,7 @@
   - Images for banners and UI are in `src/assets/` and referenced in components.
 
 ## Developer Workflows
+
 - **Start Development Server:**
   - `npm start` (runs on http://localhost:3000)
 - **Run Tests:**
@@ -29,6 +32,7 @@
   - Standard Create React App linting; errors shown in browser/console.
 
 ## Project-Specific Conventions
+
 - **File Naming:**
   - Use PascalCase for React components (e.g., `Navbar.jsx`, `Aboutme.jsx`).
   - CSS files match their component/section name and are colocated.
@@ -40,6 +44,7 @@
   - All data and assets are local; no backend or external API calls.
 
 ## Integration Points & Dependencies
+
 - **External Libraries:**
   - React, ReactDOM (from Create React App)
   - No custom middleware, state management, or third-party UI libraries detected.
@@ -47,6 +52,7 @@
   - `public/manifest.json` for PWA support (default from CRA)
 
 ## Example Patterns
+
 - To add a new section:
   1. Create a folder in `src/containers/` with `.jsx` and `.css` files.
   2. Export the new section in `containers/index.js`.
@@ -57,6 +63,7 @@
   3. Use in containers or `App.js`.
 
 ## Key Files
+
 - `src/App.js` – Main app layout and composition.
 - `src/components/` – Reusable UI widgets.
 - `src/containers/` – Page sections.
