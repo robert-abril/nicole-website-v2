@@ -1,0 +1,26 @@
+.nmv2__reels-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nmv2__reel-contianer__reel {
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nmv2__reel-container__reel-title {
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.nmv2__reel-container__reel-description {
+  text-align: center;
+  margin: 17px;
+}

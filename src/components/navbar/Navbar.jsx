@@ -22,9 +22,7 @@ const Menu = () => (
 const Navbar = () => {
   return (
     <div className="nwv2__navbar">
-      <div className="nwv2__navbar-links_logo">
-        <img src={logo} />
-      </div>
+      <div className="nwv2__navbar-links_logo">{/* <img src={logo} /> */}</div>
       <div className="nwv2__navbar-links">
         <div className="nwv2__navbar-links_container">
           <Menu />
