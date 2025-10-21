@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 70px; /* Adjust to match navbar height */
 }
 
 .nmv2__header h1 {

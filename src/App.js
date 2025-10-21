@@ -9,8 +9,8 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <Reels />
       <Aboutme />
+      <Reels />
       <Footer />
     </div>
   );

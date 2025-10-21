@@ -25,7 +25,7 @@ const displayReels = [
 
 const Reels = () => {
   return (
-    <div className="nmv2__reels-container">
+    <div id="reels" className="nmv2__reels-container">
       {displayReels.map((reel, index) => (
         <Reel
           key={index}

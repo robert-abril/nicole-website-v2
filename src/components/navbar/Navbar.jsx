@@ -1,22 +1,32 @@
 import React from "react";
 import "./navbar.css";
-import logo from "../../assets/Nicole-princess-banner.png";
 
 const Menu = () => (
-  <>
-    <p>
-      <a href="#aboutme">About Me</a>
-    </p>
-    <p>
-      <a href="#thesis">Thesis</a>
-    </p>
-    <p>
-      <a href="#reels">Demo Reels</a>
-    </p>
-    <p>
-      <a href="#resume">Resume</a>
-    </p>
-  </>
+  <nav>
+    <ul className="navbar-menu">
+      <li>
+        <a href="#thesis">Thesis</a>
+      </li>
+      <li>
+        <a href="#resume">Resume</a>
+      </li>
+      <li>
+        <a href="#reels">Demo Reels</a>
+      </li>
+      <li>
+        <a href="#animation">Animation</a>
+      </li>
+      <li>
+        <a href="#director">Director</a>
+      </li>
+      <li>
+        <a href="#drawing">Drawing</a>
+      </li>
+      <li>
+        <a href="#aboutme">About</a>
+      </li>
+    </ul>
+  </nav>
 );
 
 const Navbar = () => {
